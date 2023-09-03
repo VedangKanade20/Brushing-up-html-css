@@ -1,0 +1,89 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,
+ 400;
+0,
+700;
+1,
+400;
+1,
+700&display=swap"
+ rel="stylesheet">.nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.popular {
+  background-color: darkslategray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  /* grid-row: 1fr, 1fr;
+    grid-column: 1fr, 1fr; */
+  margin: top 1px;
+  margin-bottom: 0% !important;
+}
+
+.html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation li {
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 2fr;
+  list-style-type: none;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.offerr {
+  color: red;
+  font-weight: 400;
+  font-style: oblique;
+  text-align: center;
+}
+
+.bocha {
+  font-weight: bold;
+  font: 1em sans-serif;
+  text-align: end;
+  align-items: end;
+  align-content: end;
+}
+
+.parts {
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 200%;
+}
+
+.parts :hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: red;
+  background-color: aqua;
+}
+
+.special {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.info {
+  text-align: end;
+  font-weight: bold;
+  font-style: oblique;
+  text-decoration-style: none;
+  text-decoration: none;
+}
+
+html {
+  background-color: beige;
+  background-image: linear-gradient(to top, #f5f5f5, #f1f1f1);
+}
